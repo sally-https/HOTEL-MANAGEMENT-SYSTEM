@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ body{
+background-image: url('IMG_E6306.JPG');
+backgroung-size: cover;
+background-position:centre;
+background-attachment: fixed;
+height: 100vh;
+width: 100%;
+}
+</style>
+<title>Index</title>
+</head>
+<body bgcolor="SlateBlue">
+<div>
+<h1><centre>CHECK OUT</centre></h1>
+</div>
+</body>
+</html>
+<label for='Room number'>ROOM NUMBER:</label>
+<input type="number" id="room number" name= "room number"><br><br>
+<label for='guest name'>GUEST NAME:</label>
+<input type="text" id="guest name" name= "guest name"><br><br>
+<label for='date in'>DATE IN:</label>
+<input type="date" id="date in" name= "date in">
+<label for='date out'>DATE OUT:</label>
+<input type="date" id="date out" name= "date out"><br></br>
+<label for='total charge'>TOTAL CHARGE:</label>
+<input type="number" id="total charge" name= "total charge">
+<label for='sub total'>SUB TOTAL:</label>
+<input type="number" id="sub total" name= "sub total">
+<label for='discount'>DISCOUNT:</label>
+<input type="number" id="discount" name= "discount">
+<label for='amount paid'>AMOUNT PAID:</label>
+<input type="number" id="amount paid" name= "amount paid"><br><br>
+<input type="button" value="PRINT" onclick="PRINT()">
+<input type="button" value="CHECK OUT" onclick="CHECK OUT()">
+<input type="button" value="CANCEL" onclick="CANCEL()">
+<a href="homepagee.html"><button>BACK TO HOME PAGE</button></a><p>
+
+
+
+
+
+
+
+

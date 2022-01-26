@@ -1,0 +1,197 @@
+ <div class="aa_htmlTable">
+<h2 class="aa_h2">GUEST LIST</h2>
+<table>
+<thead>
+<tr>
+<th>NO.</th>
+<th>GUEST NAMES</th>
+ 
+<th>ROOM NUMBER</th>
+<th>ROOM TYPE</th>
+<th>CHECKINN DATE</th>
+<th>CHECKOUT DATE</th>
+<th>NUMBER OF PEOPLE</th>
+<tr>
+<th><input type="number"></th>
+<th><input type="text"></th>
+<th><input type="number"></th>
+<th><input type="text"></th>
+<th><input type="date"></th>
+<th><input type="date"></th>
+<th><input type="number"></th>
+</tr>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+<th><input type="number"></th>
+<th><input type="text"></th>
+<th><input type="number"></th>
+<th><input type="text"></th>
+<th><input type="date"></th>
+<th><input type="date"></th>
+<th><input type="number"></th>
+</tr>
+<tr>
+<th><input type="number"></th>
+<th><input type="text"></th>
+<th><input type="number"></th>
+<th><input type="text"></th>
+<th><input type="date"></th>
+<th><input type="date"></th>
+<th><input type="number"></th>
+</tr>
+<tr>
+<th><input type="number"></th>
+<th><input type="text"></th>
+<th><input type="number"></th>
+<th><input type="text"></th>
+<th><input type="date"></th>
+<th><input type="date"></th>
+<th><input type="number"></th>
+</tr>
+<tr>
+<th><input type="number"></th>
+<th><input type="text"></th>
+<th><input type="number"></th>
+<th><input type="text"></th>
+<th><input type="date"></th>
+<th><input type="date"></th>
+<th><input type="number"></th>
+</tr>
+<tr>
+<th><input type="number"></th>
+<th><input type="text"></th>
+<th><input type="number"></th>
+<th><input type="text"></th>
+<th><input type="date"></th>
+<th><input type="date"></th>
+<th><input type="number"></th>
+</tr>
+<tr>
+<th><input type="number"></th>
+<th><input type="text"></th>
+<th><input type="number"></th>
+<th><input type="text"></th>
+<th><input type="date"></th>
+<th><input type="date"></th>
+<th><input type="number"></th>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th><input type="number"></th>
+<th><input type="text"></th>
+<th><input type="number"></th>
+<th><input type="text"></th>
+<th><input type="date"></th>
+<th><input type="date"></th>
+<th><input type="number"></th>
+</tr>
+</tfoot>
+</table>
+</div>
+<a href="homepagee.html"><button>BACK TO HOME PAGE</button></a><p>
+ 
+ 
+<style>
+body {
+display: table;
+width: 100%;
+background: #dedede;
+text-align: center;
+}
+ 
+* {
+box-sizing: border-box;
+}
+ 
+.aa_h2 {
+  font: 100 5rem/1 Roboto;
+  text-transform: uppercase;
+}
+ 
+table {
+background: #fff;
+}
+ 
+table, thead, tbody, tfoot, tr, td, th {
+text-align: center;
+margin: auto;
+border: 1px solid #dedede;
+padding: 1rem;
+width: 50%;
+}
+ 
+.table {
+display: table;
+width: 50%;
+}
+ 
+.tr {
+display: table-row;
+}
+ 
+.thead {
+display: table-header-group;
+}
+ 
+.tbody {
+display: table-row-group;
+}
+ 
+.tfoot {
+display: table-footer-group;
+}
+ 
+.col {
+display: table-column;
+}
+ 
+.colgroup {
+display: table-column-group;
+}
+ 
+.td, .th {
+display: table-cell;
+width: 50%;
+} 
+.caption {
+display: table-caption;
+}
+ 
+.table,
+.thead,
+.tbody,
+.tfoot,
+.tr,
+.td,
+.th 
+   
+.td {
+font-weight: 300;
+border: 1px solid #dedede;
+border-top: none;
+}
+.td:nth-child(odd) {
+  border-right: none
+}
+ 
+ 
+ 
+ 
+.aa_htmlTable {
+  background-image: url('IMG_E6306.JPG');
+  padding: 5rem;
+  display: table;
+  width: 100%;
+  height: 100vh;
+  vertical-align: middle;
+}
+ 
+ 
+ 
+</style>
+ 
+    

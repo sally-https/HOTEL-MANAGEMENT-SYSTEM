@@ -1,0 +1,61 @@
+/ <!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-image: url('IMG_E6306.JPG');
+background-size:cover;
+background-position:centre;
+background-attachment:fixed;
+height:100vh;
+width:100%;
+}
+</style>
+ <script>
+function validateForm(){
+var x=document.forms["myForm"]["fname"].value;
+var y=document.forms["myForm"]["sname"].value;
+if(x==""){
+alert("Name of guest must be filled out");
+return false;
+}else if (y==""){
+alert("Room type must be selected");
+return false;
+}
+}
+</script>
+</head>
+<body>
+<form name="myForm" action="action_page.php" onsubmit="return validateForm()" method="post">
+<div>
+<h1><center>CHECKINN</h1>
+</div>
+</body>
+<center>
+Name of guest:<input type="name" name="fname"> <br><br>
+<label for="number of the guest">Enter the number of guest:</label>
+<input type="number" id="number of guest" name="Number of guest"><br><br>
+<label for="email of the guest">Enter the Email of guest:</label>
+<input type="email" id="email of guest" name="email of guest"><br><br>
+<label for="number of days">Enter the number of days:</label>
+<input type="number" id="number of days" name="number of days"><br><br>
+ROOM TYPE:<p>
+<input type="radio" id="DULUXE" name="sname" value="DULUXE">
+<label for="DULUXE">DULUXE</label>
+<input type="radio" id="GENERAL" name="sname" value="GENERAL">
+<label for="GENERAL">GENERAL</label>
+<input type="radio" id="GENERAL" name="sname" value="GENERAL">
+<label for="GENERAL">GENERAL</label>
+<input type="radio" id="FULL DULUXE" name="sname" value="FULL DULUXE">
+<label for="FULL DULUXE">FULL DULUXE</label>
+<input type="radio" id="JOINT" name="room type" value="JOINT">
+<label for="JOINT">JOINT</label><br><br>
+PAYMENT METHOD:<p>
+<input type="radio" id="BY CASH" name="payment method" value="BY CASH">
+<label for="BY CASH">BY CASH</label>
+<input type="radio" id="BY CREDIT/DEBIT" name="payment method" value="BY CREDIT/DEBIT">
+<label for="BY CREDIT/DEBIT">BY CREDIT/DEBIT</label><br><br>
+<input type="submit">
+</form>
+</center>
+<center><a href="homepagee.html"><button>BACK TO HOME PAGE</button></a><p>
